@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07131d">
+  <title>Monu | Software Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Monu, a software engineer focused on web development, clean interfaces, and practical systems.">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="splash" id="splash">
+    <div class="splash-inner">
+      <h1>Monu</h1>
+      <p>Welcome to my portfolio</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">MONU JATAV</a>
+    <button class="nav-toggle" type="button" aria-label="Open menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-btn" type="button" aria-label="Toggle theme">🌞</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section id="home" class="view is-active">
+      <div class="hero">
+        <h2 class="typed"><span id="typed"></span><span class="typed-cursor">|</span></h2>
+        <div class="hero-copy desktop-copy">
+          <p>Hello! I'm Monu, a Computer Science student passionate about software development, web technologies, and problem-solving. I work with Java, C++, JavaScript, React, Node.js, Firebase, and MongoDB, while continuously strengthening my knowledge of Data Structures, Algorithms, and Full-Stack Development.</p>
+          <p>This site is a snapshot of what I build and how I think: focused skills, selected projects, and a straightforward way to get in touch.</p>
+          <p>If you want to collaborate or just say hello, jump over to the <a class="accent-link" href="#contact">contact</a> page.</p>
+        </div>
+        <div class="hero-copy mobile-copy">
+          <p>Hi, I’m Monu — a software engineer who likes building useful products and learning in public.</p>
+          <p>Explore my skills, projects, and ways to connect.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="view">
+      <div class="about-wrap">
+        <div class="portrait">
+          <img src="assets/avatar.png" alt="Portrait placeholder for Monu">
+        </div>
+        <div class="about-copy">
+          <h2>About Me</h2>
+          <p>I'm a B.Tech Computer Science student at Bansal Institute of Science and Technology, Bhopal, passionate about software development, web technologies, and problem-solving. I enjoy building practical applications using Java, C++, JavaScript, React, Node.js, and Firebase while continuously improving my skills in Data Structures and Algorithms. My goal is to create impactful software solutions, contribute to innovative projects, and grow as a software engineer.</p>
+          <h3>Education</h3>
+          <ul>
+            <li>Undergraduating: BIST-Bhopal</li>
+          </ul>
+          <h3>Certifications</h3>
+          <ul>
+            <li>Coding Essentials: Learn Logic Building || Scaler</li>
+            <li>Data Structures in C++ || Scaler</li>
+            <li>JavaScript Essentials 1 || Cisco Academy</li>
+            <li>Introduction to Cloud Computing || Microsoft Learn</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="view">
+      <h2>Skills</h2>
+      <ar class="card-grid">
+        <article class="card">
+          <h3>C++ & JAVA</h3>
+          <p>Strong foundation in C++ and Java with a focus on problem-solving, data structures, and algorithms.</p>
+        </article>
+        <article class="card">
+          <h3>Data Structures</h3>
+          <p>Comfortable with arrays, maps, trees, and graphs when they make a product faster or clearer.</p>
+        </article>
+        <article class="card">
+          <h3>Algorithms</h3>
+          <p>Practical problem-solving with searching, sorting, and dynamic programming where it earns its keep.</p>
+        </article>
+        <article class="card">
+          <h3>Web Technologies</h3>
+          <p>Developing responsive web applications using HTML, CSS, JavaScript, React, Node.js, and Firebase.</p>
+        </article>
+        <article class="card">
+          <h3>Version Control</h3>
+          <p>Git and GitHub for tracking changes, collaborating with others, and keeping a clean history.</p>
+        </article>
+        
+      </div>
+    </section>
+
+    <section id="projects" class="view">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>CampusCMS</h3>
+          <p>A web-based complaint management system that enables students to submit complaints and track their status in real time, while administrators efficiently manage and resolve issues.</p>
+          <p class="stack">HTML, CSS, JavaScript, Firebase</p>
+          <a class="ghost-btn" href="https://monujatav202425.github.io/CampusCMS/">View Project</a>
+        </article>
+        <article class="card">
+          <h3>Health Tracker</h3>
+          <p>A web-based health management application that helps users track BMI, weight, water intake, calories, sleep, and fitness activities through an interactive dashboard and progress analytics.</p>
+          <p class="stack">HTML, CSS, JavaScript, Firebase</p>
+          <a class="ghost-btn" href="#home">View Project</a>
+        </article>
+        <article class="card">
+          <h3>Weather App</h3>
+          <p>A simple weather application that fetches real-time weather data based on user input and displays it in a user-friendly interface.</p>
+          <p class="stack">HTML, CSS, JavaScript, OpenWeatherMap API</p>
+          <a class="ghost-btn" href="https://monujatav202425.github.io/Weather-App/">View Project</a>
+      </div>
+    </section>
+
+    <section id="contact" class="view">
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to connect with me on social media &amp; coding platforms.</p>
+        <div class="socials">
+          <a class="social linkedin" href="https://www.linkedin.com/in/monu-jatav-58205032b/?isSelfProfile=true" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a class="social github" href="https://github.com/monujatav202425" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a class="social x" href="https://x.com/MonuJat25366032" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i> X (Twitter)</a>
+          <a class="social instagram" href="https://www.instagram.com/monu.jatav.160/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a class="social leetcode" href="https://leetcode.com/u/monujatav7869/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-code"></i> LeetCode</a>
+        </div>
+        <div class="mail-block">
+          <p>Or contact me via email:</p>
+          <a class="mail-btn" href="mailto:monujatav202425@gmail.com"><i class="fa-solid fa-envelope"></i> monujatav202425@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-link" href="#contact"><i class="fa-solid fa-paper-plane"></i> Let’s work together</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
